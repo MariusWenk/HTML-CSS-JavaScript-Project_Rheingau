@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    
+      <link rel="stylesheet" type="text/CSS" href="Projekt.CSS">
+      <script language="javascript" type="text/javascript" src="Informatikprojekt.js"></script>
+      <title>ferienfreude-rheingau.de</title>
+      
+</head>
+
+<body>
+
+      <aside id="date1"></aside>
+      <aside id="clock" float="left"></aside>
+
+      <header>
+      <h1>Ferien im Rheingau</h1>
+      <h3>ferienfreude-rheingau.de</h3>
+      </header>
+      
+      <marquee>
+        Do now change the lanuage into English by clicking into the sidebar. &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Stellen sie die Sprache in der Sidebar auf Deutsch um.
+      </marquee>
+
+      
+      <nav>
+        <ul>
+            <a href="home.html"><li>Startseite</li></a>
+            <a href="Orte.html"><li>Orte</li></a>
+            <a href="Fahrpl&auml;ne.html"><li>Fahrpl&auml;ne & Kommentare</li></a>
+        </ul>                   
+      </nav>
+      
+      <aside>
+              <img src="Logo(1).png"/><br /><br />
+              Sprache / Language: <br />   <br />
+              <a href="javascript:location.reload()" target="_self">Deutsch</a><br /><br />
+              <a onclick="Spracheenglisch()">English</a>
+
+      </aside>
+      
+      <section> 
+            
+         <article id="englisch">
+            <p>Hier finden sie unsere Hotels im Rheingau:   <br /><br />
+            Erbach - Hotel Tillmanns:   <br />
+            
+            Hauptstraße 2    <br />
+            65346 Eltville am Rhein / Erbach  <br />
+            Tel:06123 9233-0 <br /><br />
+            R&uuml;desheim - Ringhotel: <br />
+            Kirchstra&szlig;e 6<br />
+            65385 Rüdesheim<br />
+            Tel: 06722 9114-0 <br /><br />
+            Winkel - Gasthaus Strieth:<br />
+            Hauptstrasse 128 <br />
+            65375 Oestrich-Winkel <br />
+            Tel:06723 9958-0</p>
+         </article>
+         
+      </section>
+         
+      <footer>by Marius Wenk</footer>
+         
+      <script>
+            function Spracheenglisch() {
+            document.getElementById("englisch").innerHTML =
+            "Here you find our Hotels in Rheingau: <br /><br />"+
+            "Erbach - Hotel Tillmanns:   <br />"+
+            "Hauptstraße 2    <br />"+
+            "65346 Eltville am Rhein / Erbach  <br />"+
+            "Tel:06123 9233-0 <br /><br />"+
+            "R&uuml;desheim - Ringhotel: <br />"+
+            "Kirchstra&szlig;e 6<br />"+
+            "65385 Rüdesheim<br />"+
+            "Tel: 06722 9114-0 <br /><br />"+
+            "Winkel - Gasthaus Strieth:<br />"+
+            "Hauptstrasse 128 <br />"+
+            "65375 Oestrich-Winkel <br />"+
+            "Tel:06723 9958-0"
+            alert ("Wollen sie die Sprache umstellen? /"+
+            " Do you want to change the language?")
+            }
+            datum();
+            uhr();
+            /* Angaben zu Javascriptprogrammierung sind in der js Datei*/         
+      </script>
+      
+</body>
+</html>                        

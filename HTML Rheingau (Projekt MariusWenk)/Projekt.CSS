@@ -1,0 +1,173 @@
+body
+{
+
+     
+      background-image: url(Rheingau1.jpg)  ;  /*Bild von Blog.carathotels*/
+      
+}  
+
+      
+  
+header { width: 80%;
+         margin-top: 100px;
+       height: 100px;
+       background-color: #E4E4E4;
+       margin-right: 10%;
+       margin-left: 10%;
+       border-radius: 7px;
+       box-shadow: 0px 0px 10px black;
+       float: left;
+       padding-bottom: 10px;
+        }
+      
+header h1 {
+    text-align: center;
+}
+header h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+nav {  background-color: #008000;
+       text-align: center;
+       margin-top: 30px;
+       width: 90%;
+       margin-right: 5%;
+       margin-left: 5%;
+       border-radius: 4px;
+       box-shadow: 0px 0px 10px black;
+} 
+nav ul {
+    list-style-type: none;
+}               
+nav li {
+    
+    display: inline;
+    margin: 10%;
+   
+    margin-right: 10%;
+} 
+
+    
+  
+nav a {
+    text-decoration: none;
+    color: #000000 ;
+    text-shadow: 0px 0px 1px;
+    transition: all 0.2s;
+}
+nav a:hover {
+    color: #000074;
+}
+    
+       
+footer {
+    margin-bottom: 10px;
+    background-color: #008000;
+    text-align: center;
+       margin-top: 30px;
+       width: 90%;
+       margin-right: 5%;
+       margin-left: 5%;
+       border-radius: 4px;
+       float: left;
+       text-shadow: 0px 0px 1px grey;
+       box-shadow: 0px 0px 10px black;
+       position: fixed;
+       bottom: 0px;
+        }
+ article{
+      background-color:#E4E4E4 ;  
+      border-radius: 5px  ;
+      width: 67%;  
+      margin-right: 1%;
+      margin-left: 5%;
+      padding-top: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-bottom: 20px;
+      font-style: Verdana;
+      float: left;
+      box-shadow: 0px 0px 10px black;
+      transition: all 1s;
+      margin-bottom: 20px;
+      text-shadow: 0px 0px 1px grey;
+}
+article:hover{
+      box-shadow: 0px 0px 20px  
+}
+section {
+    margin-top: 30px;
+}
+aside{
+    float: right;
+    width: 15%;
+    background-color: #2CC200;
+    margin-right: 5%;
+    border-radius: 5px ;
+    padding: 10px;
+    height: auto;
+    box-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 1px grey;
+    margin-top: 15px;
+
+}
+aside a{
+    font-size: large;
+    color: #000074;
+    background-color: #2CC200;
+    border: 0px;
+    font-style: normal;
+    padding-bottom: 10px;
+    text-decoration: none;
+    cursor: default;
+}
+aside a:hover {
+    color: #0067A7;
+}
+marquee{ 
+    width: 90%;
+    background-color: #2CC200;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 15px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 1px grey; 
+}
+table {
+    border-color: #000100;
+    
+}
+td {
+    padding-left: 20px;
+}
+th {
+    padding-bottom:10px ;
+}
+.galerie:hover{
+    min-width: 300px;
+}
+.galerie{
+    max-width: 150px;
+    border: 1px solid white; 
+}
+#clock{
+    float: left;
+    margin-left: 5%;
+}
+video {
+    border-radius: 2px;
+    width: 100%;
+}
+a {  text-decoration: none;
+    color: #000074 ;
+    text-shadow: 0px 0px 1px;
+    transition: all 0.2s;
+}
+a:hover {
+    color: #008080;
+}
+
+
+
+                             

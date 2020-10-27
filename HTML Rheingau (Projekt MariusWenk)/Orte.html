@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    
+      <link rel="stylesheet" type="text/CSS" href="Projekt.CSS">
+      <script language="javascript" type="text/javascript" src="Informatikprojekt.js"></script>
+      <title>ferienfreude-rheingau.de</title>
+      
+</head>
+
+<body>
+
+      <aside id="date1"></aside>
+      <aside id="clock" float="left"></aside>
+
+      <header>
+      <h1>Ferien im Rheingau</h1>
+      <h3>ferienfreude-rheingau.de</h3>
+      </header>
+      
+      <marquee>
+        Do now change the lanuage into English by clicking into the sidebar. &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Stellen sie die Sprache in der Sidebar auf Deutsch um.
+      </marquee>
+
+      
+      <nav>
+        <ul>
+            <a href="home.html"><li>Startseite</li></a>
+            <a href="H&auml;user.html"><li>Hotels</li></a>
+            <a href="Fahrpl&auml;ne.html"><li>Fahrpl&auml;ne & Kommentare</li></a>
+        </ul>                   
+      </nav>
+      
+      <aside>
+              <img src="Logo(1).png"/><br /><br />
+              Sprache / Language: <br />   <br />
+              <a href="javascript:location.reload()" target="_self">Deutsch</a><br /><br />
+              <a onclick="Spracheenglisch()">English</a>
+
+      </aside> 
+        
+      <section>
+         
+        <article id="englisch">
+            Hier sind alle 17 Orte des Rheingaus: <br /><br />
+            Assmannshausen      <br />
+            Eltville             <br />
+            Frauenstein          <br />
+            Geisenheim           <br />
+            Hallgarten           <br />
+            Hattenheim           <br />
+            Johannisberg         <br />
+            Kaub                 <br />
+            Lorch                <br />
+            Lorchhausen          <br />
+            Martinsthal          <br />
+            Mittelheim (Oestrich-Winkel)   <br />
+            Oestrich (Oestrich-Winkel)            <br />
+            Rauenthal            <br />
+            Rüdesheim am Rhein   <br />
+            Stephanshausen       <br />
+            Winkel (Oestrich-Winkel) <br />
+            Kiedrich              <br />
+        </article>
+        
+      </section>
+        
+      <footer>by Marius Wenk</footer>
+         
+      <script>
+            function Spracheenglisch() {
+            document.getElementById("englisch").innerHTML =
+            "Here are all 17 villages and cities of Rheingau: <br /><br />"+
+            "Assmannshausen      <br />"+
+            " Eltville             <br />"+
+            "Frauenstein          <br />"+
+            "Geisenheim           <br />"+
+            "Hallgarten           <br />"+
+            "Hattenheim           <br />"+
+            "Johannisberg         <br />"+
+            "Kaub                 <br />"+
+            "Lorch                <br />"+
+            "Lorchhausen          <br />"+
+            "Martinsthal          <br />"+
+            "Mittelheim (Oestrich-Winkel)   <br />"+
+            "Oestrich (Oestrich-Winkel)            <br />"+
+            "Rauenthal            <br />"+
+            " Rüdesheim am Rhein   <br />"+
+            "Stephanshausen       <br />"+
+            "Winkel (Oestrich-Winkel) <br />"+
+            "Kiedrich              <br />"
+            alert ("Wollen sie die Sprache umstellen? /"+
+            " Do you want to change the language?")
+            }                                                     
+            datum();
+            uhr();
+            /* Angaben zu Javascriptprogrammierung sind in der js Datei*/         
+      </script>
+      
+</body>
+</html>                        

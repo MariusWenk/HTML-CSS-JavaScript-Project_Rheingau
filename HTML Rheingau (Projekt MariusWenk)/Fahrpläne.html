@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    
+      <link rel="stylesheet" type="text/CSS" href="Projekt.CSS">
+      <script language="javascript" type="text/javascript" src="Informatikprojekt.js"></script>
+      <title>ferienfreude-rheingau.de</title>
+      
+</head>
+
+<body>
+
+      <aside id="date1"></aside>
+      <aside id="clock" float="left"></aside>
+        
+      <header>
+      <h1>Ferien im Rheingau</h1>
+      <h3>ferienfreude-rheingau.de</h3>
+      </header>
+      
+      <marquee>
+        Do now change the lanuage into English by clicking into the sidebar. &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Stellen sie die Sprache in der Sidebar auf Deutsch um.
+      </marquee>
+
+      
+      <nav>                                                   
+        <ul>
+         <a href="home.html"><li>Startseite</li></a>
+            <a href="Orte.html"><li>Orte</li></a>
+            <a href="H&auml;user.html"><li>Hotels</li></a>
+           
+        </ul>                   
+      </nav> 
+      
+      <aside>
+              <img src="Logo(1).png"/><br /><br />
+              Sprache / Language: <br />   <br />
+              <a href="javascript:location.reload()" target="_self">Deutsch</a><br /><br />
+              <a onclick="Spracheenglisch()">English</a>
+
+      </aside>
+          
+      <section> 
+      
+         <article id="englisch">
+            <p><h2>Fahrpl&auml;ne</h2>
+            Hier sind die Fahrpl&auml;ne f&uuml;r Bus und Bahn im Rheingau.<br />
+            Allerdings werden nicht alle Orte angefahren.<br />
+            Alle Linien fahren im Stundentakt bis 18 Uhr, an jedem Tag der Woche.<br />
+            Hier sind jeweils die ersten t&auml;glichen Busse und Z&uuml;ge vermerkt:
+            
+            <h2>Busfahrplan</h2></p>
+            
+            <table border="1px">
+                <tr><th>Ort</th><th>Buslinie 171</th><th>Buslinie 180</th><th>Bahn Richtung Kaub</th><th>Bahn Richtung Walluf</th></tr>
+                <tr><td>Walluf</td><td>5:11</td><td>5:41</td><td>4:00</td><td>6:50</td></tr>
+                <tr><td>Eltville</td><td>5:14</td><td>5:44</td><td>4:03</td><td>6:47</td></tr>
+                <tr><td>Kiedrich</td><td>5:17</td><td>5:47</td><td>/</td><td>/</td></tr>
+                <tr><td>Erbach</td><td>5:22</td><td>5:52</td><td>4:10</td><td>6:40</td></tr>
+                <tr><td>Hattenheim</td><td>5:30</td><td>6:00</td><td>4:14</td><td>6:36</td></tr>
+                <tr><td>Hallgarten</td><td>5:35</td><td>6:05</td><td>/</td><td>/</td></tr>
+                <tr><td>Oestrich</td><td>5:40</td><td>6:10</td><td>/</td><td>/</td></tr>
+                <tr><td>Mittelheim</td><td>5:42</td><td>6:12</td><td>4:17</td><td>6:33</td></tr>
+                <tr><td>Winkel</td><td>5:47</td><td>6:17</td><td>/</td><td>/</td></tr>
+                <tr><td>Geisenheim</td><td>5:51</td><td>6:21</td><td>4:20</td><td>6:30</td></tr>
+                <tr><td>Stephanshausen</td><td>5:57</td><td>6:27</td><td>/</td><td>/</td></tr>
+                <tr><td>R&uuml;desheim</td><td>6:01</td><td>6:31</td><td>4:24</td><td>6:26</td></tr>
+                <tr><td>Assmannshausen</td><td>6:06</td><td>6:36</td><td>4:27</td><td>6:23</td></tr>
+                <tr><td>Lorch</td><td>6:10</td><td>6:40</td><td>/</td><td>/</td></tr>
+                <tr><td>Kaub</td><td>6:15</td><td>6:45</td><td>/</td><td>/</td></tr>
+            </table>
+            
+         </article>
+         
+      </section>
+         
+      <footer>by Marius Wenk</footer>
+         
+      <script>
+            function Spracheenglisch() {
+            document.getElementById("englisch").innerHTML=
+            "<p><h2>Scedules</h2>Here are bus- and trainscedules in the Rheingau.<br />"+
+            "But not all villages are connected with bus and train.<br />"+
+            "All lines drive every hour till 6pm at every day of the week.<br />"+
+            "Here are the first busses and trains of the day:<h2>Bus- and trainscedules</h2>"+
+            " <table border=1px>"+
+            "<tr><th>Ort</th><th>Bus line 171</th><th>Bus line 180</th><th>Train in direction Kaub</th><th>Train in direction Walluf</th></tr>"+
+            "<tr><td>Walluf</td><td>5:11</td><td>5:41</td><td>4:00</td><td>6:50</td></tr>"+
+            "<tr><td>Eltville</td><td>5:14</td><td>5:44</td><td>4:03</td><td>6:47</td></tr>"+
+            "<tr><td>Kiedrich</td><td>5:17</td><td>5:47</td><td>/</td><td>/</td></tr>"+
+            "<tr><td>Erbach</td><td>5:22</td><td>5:52</td><td>4:10</td><td>6:40</td></tr>"+
+            "<tr><td>Hattenheim</td><td>5:30</td><td>6:00</td><td>4:14</td><td>6:36</td></tr>"+
+            "<tr><td>Hallgarten</td><td>5:35</td><td>6:05</td><td>/</td><td>/</td></tr>"+
+            "<tr><td>Oestrich</td><td>5:40</td><td>6:10</td><td>/</td><td>/</td></tr>"+
+            "<tr><td>Mittelheim</td><td>5:42</td><td>6:12</td><td>4:17</td><td>6:33</td></tr>"+
+            "<tr><td>Winkel</td><td>5:47</td><td>6:17</td><td>/</td><td>/</td></tr>"+
+            "<tr><td>Geisenheim</td><td>5:51</td><td>6:21</td><td>4:20</td><td>6:30</td></tr>"+
+            "<tr><td>Stephanshausen</td><td>5:57</td><td>6:27</td><td>/</td><td>/</td></tr>"+
+            "<tr><td>R&uuml;desheim</td><td>6:01</td><td>6:31</td><td>4:24</td><td>6:26</td></tr>"+
+            "<tr><td>Assmannshausen</td><td>6:06</td><td>6:36</td><td>4:27</td><td>6:23</td></tr>"+
+            "<tr><td>Lorch</td><td>6:10</td><td>6:40</td><td>/</td><td>/</td></tr>"+
+            "<tr><td>Kaub</td><td>6:15</td><td>6:45</td><td>/</td><td>/</td></tr>"+
+            "</table>"
+            alert ("Wollen sie die Sprache umstellen? /"+
+            " Do you want to change the language?")
+            }
+            datum();
+            uhr();
+            /* Angaben zu Javascriptprogrammierung sind in der js Datei*/      
+      </script>
+      
+</body>
+</html> 
+

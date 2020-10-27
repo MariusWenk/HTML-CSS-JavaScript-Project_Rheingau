@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    
+      <link rel="stylesheet" type="text/CSS" href="Projekt.CSS">
+      <script language="javascript" type="text/javascript" src="Informatikprojekt.js"></script>
+      <title>ferienfreude-rheingau.de</title>
+     
+</head>
+
+<body>
+
+      <aside id="date1"></aside>
+      <aside id="clock" float="left"></aside>
+      
+      <header>
+        <h1>Ferien im Rheingau</h1>
+        <h3>ferienfreude-rheingau.de</h3>
+      </header>
+      
+      <marquee>
+        Do now change the lanuage into English by clicking in the lenguage settings. &nbsp; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+        Stellen sie die Sprache in der Spracheinstellung auf &nbsp;Deutsch um.
+      </marquee>
+                                                                                    
+      <nav>
+        <ul>
+            <a href="Orte.html"><li>Orte</li></a>
+            <a href="H&auml;user.html"><li>Hotels</li></a>
+            <a href="Fahrpl&auml;ne.html"><li>Fahrpl&auml;ne & Kommentare</li></a>
+        </ul>                   
+      </nav>
+      
+      <aside>                   
+              <img src="Logo(1).png"/><br /><br />              
+              Sprache / Language: <br />   <br />        
+              <a href="javascript:location.reload()" target="_self">Deutsch</a><br /><br />
+              <a onclick="Spracheenglisch()">English</a>
+      </aside>
+         
+      <section>
+      
+         <article id="englisch"><h2>Herzlich Wilkommen!</h2><p>
+          Hier finden sie diverse Angebote im Rheingau und Informationen &uuml;ber den Rheingau.
+          <br />Sie wollen im Rheigau Urlaub machen?, dann k&ouml;nnen sie hier Hotels
+          finden und sich die Ortschaften des Rheingaus ansehen. <br />Au&szlig;erdem haben 
+          sie die M&ouml;glichkeit sich die Fahrpl&auml;ne f&uuml;r den Rheingau
+          schnell und einfach anzuschauen.</p><br /><br />
+          <a href="https://de.wikipedia.org/wiki/Rheingau">Gehen sie hier auf die Wikipedia Seite des Rheingaus.</a>
+          </article>
+           
+          <article id="englisch2">
+          <h2>Rheingauvideo</h2>
+          <video src="Rheingauvideo.mp4" controls>
+                <p>Video kann nicht angezeigt werden</p>
+          </video>
+          <p>Hier k&ouml;nnen sie sich ein kleines Video zum Rheingau anschauen.</p>
+          </article>
+          
+          <article>
+            <h2>Galerie</h2>
+             <div>
+            <img src="Rheingaubilder (10).jpg" class="galerie" onclick="bilder()" id="bild1" ><p id="bild">Karte (anclicken)</p><br/>
+            <img src="Rheingaubilder (2).jpg" class="galerie"><br />
+            <img src="Rheingaubilder (3).jpg" class="galerie"><br />
+            <img src="Rheingaubilder (4).jpg" class="galerie"><br />
+            <img src="Rheingaubilder (5).jpg" class="galerie"><br />
+            <img src="Rheingaubilder (6).jpg" class="galerie"><br />
+            <img src="Rheingaubilder (7).jpg" class="galerie"><br />
+            <img src="Rheingaubilder (1).jpg" class="galerie"><br />
+            <img src="Rheingaubilder (12).jpg" class="galerie"><br />
+            <!--Die Bilder sind von "blog.carathotels", "mr-kartographie.de",
+             "mainz-images.blogspot.com", "wikipedia.org" & "fotocommunity.org"-->
+            </div>
+          </article>
+          
+      </section>
+           
+      <script>
+            function Spracheenglisch() {
+            document.getElementById("englisch").innerHTML =    
+            "<h2>Welcome!</h2><p>Here you find several posibilitys of things you could do in Rheingau.<br/>"+
+            "You want to make holiday in Rheingau?,"+
+            " then you could look for an Hotel or the citys of Rheingau in here.<br/>"+
+            "Also you have got the posibility to see the schedules of Rheingau in here."
+            alert ("Wollen sie die Sprache umstellen? /"+
+            " Do you want to change the language?")
+            }
+            function bilder() {
+                document.getElementById("bild").innerHTML =
+                "<p>Karte des Rheingaus</p>"+
+                "<style>#bild1 {min-width: 500px  }"
+            }
+            uhr();
+            datum();
+            /* Angaben zu Javascriptprogrammierung sind in der js Datei*/
+      </script>                                    
+         
+      <footer>
+        by Marius Wenk <br />
+        Quellen (Bilder): mr-kartographie.de, mainz-images.blogspot.com, blog.carathotels.de
+      </footer>
+         
+</body>
+</html>                        
